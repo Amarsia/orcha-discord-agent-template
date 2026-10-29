@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "name": "Orcha Discord Agent",
+  "slug": "orcha-discord-agent-template",
+  "description": "Production-ready Discord assistant with an OrchaJS runtime and Next.js test console.",
+  "category": "discord",
+  "runtime": "node",
+  "framework": "nextjs",
+  "entrypoint": "orcha/index.ts",
+  "agent": "assistant",
+  "features": [
+    "discord.js worker",
+    "slash commands",
+    "durable sessions",
+    "local test chat",
+    "docker"
+  ]
+}
